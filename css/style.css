@@ -1,0 +1,399 @@
+/* start here css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/*   container general    */
+.container{
+    margin: auto;
+    width: 95%;
+}
+header{
+    position: sticky;
+    top: 0;
+     
+    border-bottom: 2px solid black;
+
+   
+}
+.starthead{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+}
+.Phinfologo{
+
+    width: 220px;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.infologo span{
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        color: #00C3A5;
+
+}
+.infologo p{
+    color: #ABABAB;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.list li{
+    display:inline-block ;
+    padding: 10px;
+  
+    
+}
+.list li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 1.rem;
+    text-transform: capitalize;
+}
+  .one:nth-of-type(1)  {
+    color: #00C3A5;
+}
+
+/*  block one for logo */
+
+.img_center{
+   text-align: center;
+   margin: 70px;
+   line-height: 68px;
+   font-size: 2.1rem;
+   letter-spacing: 2px;
+   text-transform: capitalize;
+   color: #00B39B;
+}
+
+.paragraph_info{
+
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    display:flex;
+    justify-content: space-around;
+    line-height: 25px;
+   
+    
+ 
+}
+.pone{
+    float: left;
+    width: 45%;
+    position: relative;
+    top: 0;
+    left: 12%;
+    display: justify;
+ 
+}
+
+.ptwo{
+    float: left;
+    width: 45%;
+    position: relative;
+    top: 0;
+    right: -5%;
+    
+}
+.clr{
+    clear: both;
+}
+
+
+
+
+/*   work block card here*/
+#bigcard{
+    margin-top: 40vh;
+}
+.blockcard{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ 
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+
+    width: 300px;
+    height: 350px;
+
+}
+.card:nth-child(1){
+    background-color: #1AD1B9;
+    padding: 15px;
+}
+
+.card:nth-child(2){
+    background-color: #5190E2;
+    padding: 15px;
+}
+
+.card:nth-child(3){
+    background-color: #1B2734;
+    padding: 15px;
+}
+
+/*   work in the card content  */
+
+.img_card{
+    color:white;
+}
+.img_card  > p {
+  margin-top: 15px;
+}
+.card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardinfo{
+
+    padding-bottom: 15px;
+
+}
+
+
+/*              start   block for card 2 for list   css */
+
+#herethecard{
+    margin-top: 50px;
+  
+}
+
+.listofcard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(30px,auto);
+  
+}
+
+.childcard, .box1  p{
+
+     
+        position: relative;
+        top: 5px;
+        left: 110px;
+        padding: 20px 0px;
+
+}
+
+
+
+.listbox2{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+  
+}
+
+.one{
+
+    position: relative;
+    top: 0;
+    left: 0px;
+    right: 380px;
+    padding: 20px;
+}
+.listbox2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ .lastboxone{
+    position: relative;
+    top: 0;
+    left: 0px;
+ 
+}
+
+
+/*             */
+
+.infologoboxsmall{
+    background-color: #D5F5F6;
+    height: 120vh;
+    width: 100%;
+}
+
+
+
+/*                     info_logo_icon_smalcard   */
+
+.info_logo_icon_smalcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.aboutinfologo{
+    text-align: center;
+    margin-top: 60px;
+    line-height: 60px;
+}
+
+.aboutinfologo img{
+    margin-top: 80px;
+    width: 100%;
+    font-size: 4.2rem;
+    color: #00CCB1;
+    font-weight: bold;
+}
+
+
+.iconlogosmallcard{
+
+    display: grid;
+    grid-template-columns: 200px  200px;
+    grid-auto-rows: minmax(200px,auto);
+      
+    grid-gap: 2px 19px ;
+
+       margin-top: 50px;
+    padding: 20px;
+}
+
+.logosmall{
+    background-color: brown;
+    height: 250px;
+}
+
+
+.small1, .small2, .small3, .small4{
+    background-color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.small1:nth-of-type(1){
+    height: 280px;
+    margin-top: 35px;
+}
+
+.small2:nth-of-type(2){
+    height: 280px;
+    margin-top: -30px;
+}
+.small3:nth-of-type(3){
+    height: 280px;
+    margin-top: 50px;
+}
+.small4:nth-of-type(4){
+    height: 280px;
+    margin-bottom: 250px;
+}
+              /*****************    */
+.headcard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.headcard h2{
+    line-height: 35px;
+    color: #00CCB1;
+    word-spacing: 8px;
+    
+}
+
+.headcard  >  p{
+    margin-top: 30px;
+}
+
+/*   start  end  card  of city  layout  css*/
+
+.endcardof_city{
+    background-color: white;
+    height: 130vh;
+    position: relative;
+    top: 0;
+    
+    z-index: 1;
+}
+
+
+
+/*     endd block cardsss     */
+.endcardof_city{
+    margin-top: 70px;
+}
+.endof_cards{
+    display: grid;
+    grid-template-columns:repeat(3,3fr);
+    grid-auto-rows: minmax(300px,auto);
+    grid-column-gap:25px ;
+}
+
+.box{
+    text-align: center;
+    position: relative;
+     top: 0px;
+     left: 0;
+}
+
+
+
+.box ul li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+.join_me{
+    text-align: center;
+    margin-top: 70px;
+    line-height: 40px;
+}
+.join_me button{
+    background-color: rgb(0, 153, 255) ;
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+}
+
+footer
+{
+    background-color: black;
+    padding: 30px;
+    margin-top: 140px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+footer span{
+    color: #00CCB1;
+
+}
